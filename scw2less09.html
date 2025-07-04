@@ -76,7 +76,16 @@
       </button>
     </section>
     <script>
-      src="scw2less09.js"
+       function askForCountry() {
+            let country = prompt("What country are you from?");
+            if (country === "brazil" || country === "portugal") {
+                alert ("You speak portuguese");  
+            } else {
+                alert("Go learn Portuguese!");
+            }
+        }
+        
+        askForCountry()
     </script>
   </body>
 </html>
